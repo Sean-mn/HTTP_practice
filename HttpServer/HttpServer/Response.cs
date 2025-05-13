@@ -10,7 +10,7 @@ public enum StatusCode
 
 public class Response
 {
-    public string HttpVersion { get; } = "HTTP/1.1";
+    private string HttpVersion { get; } = "HTTP/1.1";
     
     private StatusCode _statusCode;
 
